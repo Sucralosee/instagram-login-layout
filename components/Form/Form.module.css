@@ -1,0 +1,172 @@
+.formOuterContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 675px;
+    border: 1px solid black;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+.instaLogo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width:175px;
+    height: 75px;
+    margin: 36px 0 12px 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.formFive{
+    margin-top: 24px;
+}
+
+.inputMargin{
+    margin: 0 40px 6px;
+}
+
+.username, .password {
+}
+
+
+.usernameInput {
+    width: 100%;
+}
+
+.usernameInput:hover {
+    outline: none;
+}
+
+.passwordInput {
+    width: 100%;
+}
+
+.passwordInput:hover {
+    outline: none;
+}
+
+.passwordInput, .usernameInput{
+    width: 270px;
+    height: 36px;
+    padding: 9px 0px 7px 8px;
+    border: 0;
+    background-color: var(--input-back-color);
+    box-sizing: border-box;
+    border: 1px solid var(--input-border);
+    border-radius: 4px;
+    font-size: var(--small-12);
+    color: var(--input-grey);
+}
+
+
+.logInButton {
+    margin: 8px 40px;
+    padding: 0;
+}
+
+.logInButton > button {
+    width: 270px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0;
+    background-color: var(--light-blue);
+    border: none;
+    border-radius: 8px;
+    font-weight: var(--bold-five);
+    font-size: 14px;
+    color: var(--whitey-white);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.or{
+    width:350px;
+    margin: 10px 0px 18px 0px;
+    height: 15px;
+}
+
+.orLineOne{
+    height: 1.5px;
+    width: 108px;
+    margin-left: 40px;
+    margin-right: 15px;
+    background-color: var(--input-border);
+    display: inline-flex;
+    position: relative;
+    bottom: 5px;
+}
+
+.orWord{
+    display: inline-flex;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--input-grey);
+}
+.orLineTwo{
+    height: 1.5px;
+    width: 108px;
+    background-color: var(--input-border);
+    display: inline-flex;
+    margin-left: 15px;
+    margin-right: 40px;
+    position: relative;
+    bottom: 5px;
+}
+
+.facebookMargin{
+    width: 350px;
+}
+
+.facebook{
+    width: 270px;
+    height: 20px;
+    margin: 8px 40px 8px 40px;
+    border: none;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fbimg {
+    display: inline-flex;
+    margin-right: 10px;
+    width:16px;
+    height: 16px;
+}
+
+.fbWord {
+    display: inline-flex;
+    text-align: center;
+    font-weight: var(--bold-five);
+    font-size: 13px;
+    color: var(--facebook-blue);
+}
+
+.forgor{
+    width: 350px;
+    height: 18px;
+}
+
+.forgorPass{
+    text-align: center;
+    font-size: var(--small-12);
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--facebook-blue);
+}
