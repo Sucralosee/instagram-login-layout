@@ -1,3 +1,28 @@
 .backing{
-    background-color: aquamarine;
+    width:100%;
+    padding: 0;
+    height: 129px;
+    
+}
+
+.pagesFooterCenter{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pagesFooter{
+    display: inline-flex;
+    margin: 0px 8px 8px 8px;
+    align-content: center;
+    font-size: var(--small-12);
+    font-family: var(--font-most);
+    font-weight: 300;
+    color: var(--input-grey);
+}
+
+.pagesFooterBot{
+    margin-top: 12px 0px;
 }

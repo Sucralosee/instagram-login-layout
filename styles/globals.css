@@ -3,6 +3,8 @@
   --blue: rgb(5,5,85);
   --light-gray: rgb(217,217,217);
 
+  --font-most:  -apple-system, system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+
   --regular-font: 20px;
   --small-12: 12px;
   --input-grey: rgb(115,115,155);
@@ -10,7 +12,9 @@
   --bold-five: 550;
 
   --light-blue:rgb(104, 181, 250);
-  --input-border:rgb(139, 139, 139);
+  --blue-main: rgb(0,149,246);
+  --input-border-click:rgb(139, 139, 139);
+  --input-border:rgb(157, 157, 157);
   --input-back-color:rgb(250,250,250);
   --whitey-white:rgb(255,255,255);
   --facebook-blue:rgb(56,81,133);

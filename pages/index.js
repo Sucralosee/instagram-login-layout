@@ -1,7 +1,9 @@
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import Form from '@/components/Form'
-import Words from '@/components/Footer'
+import Account from '@/components/Account'
+import Bottom from '@/components/Footer'
+import GetApp from '@/components/GetApp'
 
 export default function Home() {
   return (
@@ -12,13 +14,16 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`${styles.main}`}>
-        <Form/>
-      </main>
-      <footer className={`${styles.main}`}>
-        <Words/>
-      </footer>
-      
+      <div className={styles.body}>
+        <main className={`${styles.main}`}>
+          <Form/>
+          <Account/>
+          <GetApp/>
+        </main>
+        <footer className={`${styles.Footer}`}>
+          <Bottom/>
+        </footer>
+      </div>
     </>
   )
 }
