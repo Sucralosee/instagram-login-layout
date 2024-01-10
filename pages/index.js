@@ -26,10 +26,10 @@ export default function Home() {
             <GetApp/>
           </div>
         </main>
-        <footer className={`${styles.Footer}`}>
+      </div>
+      <footer className={`${styles.Footer}`}>
           <Bottom/>
         </footer>
-      </div>
     </>
   )
 }
