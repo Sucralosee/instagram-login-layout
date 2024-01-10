@@ -4,13 +4,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
+  height: 100vh;
 }
 .main {
   height: 700px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   padding: 0 1rem;
   margin: 0;
@@ -21,4 +21,17 @@
   position: fixed;
   bottom: 0;
   left: 0;
+}
+
+@media all and (max-width:450px) {
+  .main{
+    display: flex;
+    flex-direction: column;
+  }
+  .mainImage{
+    display: none;
+  }
+}
+
+@media all and (max-width:850px) {
 }

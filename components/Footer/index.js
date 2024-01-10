@@ -22,7 +22,7 @@ return(
             </div>
 
             <div className={`${styles.pagesFooterCenter} ${styles.pagesFooterBot}`}>
-                <div className={styles.pagesFooter}>English</div>
+                <div className={styles.pagesFooter}>English v</div>
                 <div className={styles.pagesFooter}>&copy; 2024 Instagram from Meta</div>
             </div>
         </div>
